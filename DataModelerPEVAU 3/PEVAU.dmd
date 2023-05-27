@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PEVAU" id="5780981B-16C2-71DC-004D-FC75BF25D9AD" version="3.5">
-<createdBy>alumnos</createdBy>
-<createdTime>2023-02-14 12:41:57 UTC</createdTime>
-<ownerDesignName>PEVAU</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>5780981B-16C2-71DC-004D-FC75BF25D9AD</designId>
-</OSDM_Design>
