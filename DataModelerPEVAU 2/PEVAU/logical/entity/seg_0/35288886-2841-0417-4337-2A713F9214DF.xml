@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35288886-2841-0417-4337-2A713F9214DF" name="ASISTENCIA">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:28:48 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Asiste" id="9D64EBF2-C559-3C40-3E8B-FE20B0F2F528">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:29:03 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Entrega" id="B76BB5E1-CB0F-18E9-7ED7-467A2D0F17EE">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:29:39 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="F8EB69C0-09C3-3004-CFF4-67373FBB106A">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:46:43 UTC</createdTime>
+<generatorID>9E6625E3-EB02-A2D0-8A99-67A30792C507</generatorID>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<referedAttribute>16EA2EAF-6F6B-0059-CBFD-36F0162A4312</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo" id="7425A784-6EF8-F1C4-DA5B-1880E69ABF54">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:48:41 UTC</createdTime>
+<generatorID>47CC675A-FD79-C72A-D75E-CE55A7A04AEC</generatorID>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<referedAttribute>03D3C793-EE36-15B2-5DA4-EC7C9AEDDA1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechayHora" id="75BFBC0B-D975-83D7-4653-B07115168026">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:50:27 UTC</createdTime>
+<generatorID>4EA6B17D-DD47-28CB-83A0-6A7D66D47E43</generatorID>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<referedAttribute>03C53F15-90F7-CEBB-B6A0-2BF11B77548F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo1" id="EDD1156E-AB98-42E7-BAC6-7482991F9494">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:52:11 UTC</createdTime>
+<generatorID>4EA6B17D-DD47-28CB-83A0-6A7D66D47E43</generatorID>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<referedAttribute>7CE2E321-6AF0-6101-17C2-E2787FABA275</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo11" id="1A3A9230-5013-55B2-FFF0-86F7CBB2D6FD">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:52:44 UTC</createdTime>
+<generatorID>4EA6B17D-DD47-28CB-83A0-6A7D66D47E43</generatorID>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<referedAttribute>895A0037-8BC5-BD60-31F9-7AF19E021BDB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81A916FA-3774-0A67-6931-850CC63736C8" name="ASISTENCIA PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:46:43 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8EB69C0-09C3-3004-CFF4-67373FBB106A</attributeRef>
+<attributeRef>7425A784-6EF8-F1C4-DA5B-1880E69ABF54</attributeRef>
+<attributeRef>75BFBC0B-D975-83D7-4653-B07115168026</attributeRef>
+<attributeRef>EDD1156E-AB98-42E7-BAC6-7482991F9494</attributeRef>
+<attributeRef>1A3A9230-5013-55B2-FFF0-86F7CBB2D6FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

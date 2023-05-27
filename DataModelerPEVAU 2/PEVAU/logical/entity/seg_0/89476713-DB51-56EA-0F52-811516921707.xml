@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89476713-DB51-56EA-0F52-811516921707" name="VOCAL">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:50:11 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="F021D5B8-54AD-B68D-4510-3AD5F8AABFF7">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:50:18 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>9 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="2A00A366-3698-1864-15AA-D0478AED5328">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:50:47 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="A631D3C5-7698-6F84-9825-FEE201F71162">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:51:04 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="CB4AAEB9-759B-A73D-D806-F704D2013793">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:51:25 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cargo" id="42720730-6B9A-2E30-E6A5-95F27BC0B381">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:51:42 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo" id="2A11EFFE-3F6A-881D-B351-D2D384C34CBE">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 15:01:14 UTC</createdTime>
+<generatorID>A241C9DB-6566-99AE-E2A6-A8382EC27850</generatorID>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>03D3C793-EE36-15B2-5DA4-EC7C9AEDDA1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BE35621-24A3-38B8-C9C8-9B41176BDC1F" name="Vocal PK">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 12:50:41 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F021D5B8-54AD-B68D-4510-3AD5F8AABFF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

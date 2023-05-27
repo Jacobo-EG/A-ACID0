@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sede-Vocal-Secretario" directorySegmentName="seg_0" id="240FF749-99EF-617B-8BD4-A395447B5216">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:42:32 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<sourcePk>5BE35621-24A3-38B8-C9C8-9B41176BDC1F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Ejerce de</nameOnSource>
+<nameOnTarget>Secretario</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89476713-DB51-56EA-0F52-811516921707</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5236E36B-0767-00E8-2DD1-B8B5311B0AB7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

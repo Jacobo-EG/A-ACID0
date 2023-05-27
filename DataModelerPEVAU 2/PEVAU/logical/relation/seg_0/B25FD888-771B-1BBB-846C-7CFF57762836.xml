@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vocal-Examen-Vocales" directorySegmentName="seg_0" id="B25FD888-771B-1BBB-846C-7CFF57762836">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:56:46 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Vigila</nameOnSource>
+<nameOnTarget>Vocales</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>89476713-DB51-56EA-0F52-811516921707</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3D6FA3F4-CE3D-4ED4-F780-C65FB799C3EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

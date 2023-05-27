@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sede-Aula" directorySegmentName="seg_0" id="58778326-026F-C22E-B37F-2E1831029600">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:52:44 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<sourcePk>3EAC66FF-C4B1-F82C-F0F9-EF85863DC437</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5236E36B-0767-00E8-2DD1-B8B5311B0AB7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D886FCCE-CE6D-6947-965A-E7EC47B91C6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

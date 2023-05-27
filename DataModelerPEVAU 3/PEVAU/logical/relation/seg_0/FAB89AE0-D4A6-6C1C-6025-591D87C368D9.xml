@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Estudiante-Materia" directorySegmentName="seg_0" id="FAB89AE0-D4A6-6C1C-6025-591D87C368D9">
+<createdBy>alumnos</createdBy>
+<createdTime>2023-02-14 14:47:29 UTC</createdTime>
+<ownerDesignName>PEVAU</ownerDesignName>
+<engineerTo>
+<item key="58FCEAA3-F619-E92F-83A2-35BE1AA155ED" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Matriculado en</nameOnSource>
+<nameOnTarget>matr</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6D9F1E7D-B84A-4094-B2A3-33B2EEE75D7D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2FCD6EBC-7401-37BF-7895-28849F889755</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
